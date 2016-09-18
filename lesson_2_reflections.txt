@@ -28,6 +28,11 @@ of code. For example, when I am doing a machine learning project and I have my
 data preprocessed, now I need to implement different algorithms, I can create
 a branch for each algorithm. Using branches can safely preserve a version of code
 as master branch while allowing people to testing out as many as other branches
-to experiment with other features and ideas.  
+to experiment with other features and ideas. 
+
+How do the diagrams help you visualize the branch structure?
+
+    The diagrams will separate commits for different branches. In this way, we 
+can easily inspect commits that were made under various branches. 
 
 
