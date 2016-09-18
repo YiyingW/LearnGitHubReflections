@@ -14,3 +14,8 @@ collected and organized in the staging area and at last, the changes are stored
 in repository. The value it offers is a way to group many changes into one  
 commit to make each commit reflect one logical change. 
 
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+I can put all the files modified for one logical change into staging area at once
+and in this way, they will be grouped together for one commit. 
