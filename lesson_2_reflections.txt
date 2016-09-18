@@ -17,5 +17,17 @@ commit to make each commit reflect one logical change.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-I can put all the files modified for one logical change into staging area at once
-and in this way, they will be grouped together for one commit. 
+    I can put all the files modified for one logical change into staging area at 
+once and in this way, they will be grouped together for one commit. 
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+  
+    Branches would be helpful when I want to parallely test different versions
+of code. For example, when I am doing a machine learning project and I have my
+data preprocessed, now I need to implement different algorithms, I can create
+a branch for each algorithm. Using branches can safely preserve a version of code
+as master branch while allowing people to testing out as many as other branches
+to experiment with other features and ideas.  
+
+
