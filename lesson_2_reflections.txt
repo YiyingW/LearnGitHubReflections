@@ -5,7 +5,8 @@ created. This .git direcory will contain metadata for commit histories relating
 to files in this repository. Doing this will change an ordinary directory into
 a repository that can save different versions for each commit. 
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
 
     Staging area is the intermediate place where you put the changes you want to 
 commit at once together. It is in between of the working directory and the  
@@ -34,5 +35,15 @@ How do the diagrams help you visualize the branch structure?
 
     The diagrams will separate commits for different branches. In this way, we 
 can easily inspect commits that were made under various branches. 
+
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+
+    The result of merging two branches together is one branch that has all the 
+functionalities implemented by the two branches' code. There are occasions in which
+merge cannot be performed without first resloving conflicts in the code. We represent
+it in the diagram the way we do so we can easily tell the number of branches, what
+commits in each branch, etc. 
+
 
 
