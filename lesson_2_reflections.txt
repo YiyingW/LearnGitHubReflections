@@ -45,5 +45,11 @@ merge cannot be performed without first resloving conflicts in the code. We repr
 it in the diagram the way we do so we can easily tell the number of branches, what
 commits in each branch, etc. 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+    Pros: it is easier for programmers when Git can automatic merge two branches. 
+    Cons: sometimes if the two branches contain conflicts, automatic merging may cause
+the resulting code unfunctional and making no sense.
+
 
 
